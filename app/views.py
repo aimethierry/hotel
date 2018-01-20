@@ -5,3 +5,11 @@ from django.shortcuts import render
 
 def home(request):
     return render(request,"home.html")
+
+
+def column(request):
+    return render(request, "column.html")
+
+
+def contact(request):
+    return render(request, "contact.html")
